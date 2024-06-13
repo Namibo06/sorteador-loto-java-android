@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tituloPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Seja Bem Vindo(a) a LotosMania"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="A LotosMania é um app de gerador de números para lotos dos tipos Loto Mania, Mega Sena, Quina, dentre outros tipos de jogos de apostas."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloPrincipal" />
+
+    <Button
+        android:id="@+id/btnMegaSena"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="96dp"
+        android:text="Mega Sena"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo" />
+
+    <Button
+        android:id="@+id/btnLotofacil"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="97dp"
+        android:text="Lotofácil"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo" />
+
+    <Button
+        android:id="@+id/btnDuplaSena"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/button_background"
+        android:text="Dupla Sena"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo" />
+
+    <Button
+        android:id="@+id/btnQuina"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/button_background"
+        android:text="Quina"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
