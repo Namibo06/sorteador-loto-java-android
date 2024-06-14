@@ -136,8 +136,9 @@
     <TextView
         android:id="@+id/numeroUm"
         android:layout_width="30dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="52dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="48dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toEndOf="@+id/tituloPrimeiroNumero"
@@ -147,20 +148,23 @@
     <TextView
         android:id="@+id/numeroDois"
         android:layout_width="30dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="44dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="17dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toEndOf="@+id/tituloSegundoNumero"
-        app:layout_constraintTop_toTopOf="@+id/numeroUm"
+        app:layout_constraintTop_toBottomOf="@+id/numeroUm"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/numeroTres"
         android:layout_width="30dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="22dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="17dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toEndOf="@+id/tituloTerceiroNumero"
@@ -170,35 +174,40 @@
     <TextView
         android:id="@+id/numeroQuatro"
         android:layout_width="30dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="41dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toEndOf="@+id/tituloQuartoNumero"
-        app:layout_constraintTop_toTopOf="@+id/numeroTres"
+        app:layout_constraintTop_toBottomOf="@+id/numeroTres"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/numeroCinco"
         android:layout_width="30dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="41dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toEndOf="@+id/tituloQuintoNumero"
-        app:layout_constraintTop_toTopOf="@+id/numeroQuatro"
+        app:layout_constraintTop_toBottomOf="@+id/numeroQuatro"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/numeroSeis"
         android:layout_width="30dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="42dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toEndOf="@+id/tituloSextoNumero"
-        app:layout_constraintTop_toTopOf="@+id/numeroCinco"
+        app:layout_constraintTop_toBottomOf="@+id/numeroCinco"
         tools:ignore="MissingConstraints" />
 
     <TextView
